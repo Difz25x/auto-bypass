@@ -1,185 +1,161 @@
-# 🌋 Difz25x Universal Bypasser
+<div align="center">
 
-> **Advanced Multi-Platform URL Bypass Tool with Real-time Progress Tracking**
+# Difz25x Bypasser
 
-A powerful Electron-based application that automatically bypasses URL shorteners and access control systems across 15+ platforms with an elegant checkpoint tracking interface.
+### *We are never give up.*
 
-[![Version](https://img.shields.io/badge/version-1.0.6-orange.svg)](https://github.com/Difz25x/auto-bypass)
-[![Electron](https://img.shields.io/badge/electron-latest-green.svg)](https://www.electronjs.org/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-1.0.6--beta.2-blue.svg)](https://github.com/dyr14n/auto-bypasser/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://github.com/dyr14n/auto-bypasser)
+[![Downloads](https://img.shields.io/github/downloads/Difz25x/auto-bypass/total.svg)](https://github.com/Difz25x/auto-bypass/releases)
 
----
+**Automatic bypass tool for many links**
 
-## 📋 Overview
+[Download](https://github.com/Difz25x/auto-bypass/releases/latest) • [Discord](https://discord.gg/dbfQ2syH8f)
 
-Difz25x Bypasser is a universal bypass tool that supports multiple URL shortening and access control platforms. Built with Electron and Puppeteer, it features smart detection, intelligent caching, and real-time progress tracking through a beautiful checkpoint system.
+</div>
 
-**Key Highlights:**
-- 🎯 **15+ Supported Platforms** - From simple API bypasses to complex multi-stage systems
-- ⚡ **Dual Bypass Methods** - Fast API-based or advanced browser automation
-- 💾 **Smart Caching** - Instant retrieval for previously bypassed URLs
-- 🎨 **Modern UI** - Real-time checkpoint tracker with 5-stage progress visualization
-- 🔄 **Auto-Detection** - Automatically identifies and applies the correct bypass method
 
----
+## Features
 
-## 🌐 Supported Platforms
+- **One-Click Bypass** - Automatic bypass for multiple checkpoints
+- **Auto-Update** - Always stay up-to-date with the latest features
+- **Smart Detection** - Automatically detects and solves Cloudflare challenges
+- **Ad Blocker** - Built-in ad blocker for key.volcano.wtf
+- **Fast & Efficient** - Optimized for speed and reliability
+- **Beautiful UI** - Modern, intuitive user interface
 
-### ✅ API-Based Bypasses (Fast - Sub-second)
+## Supported Services
 
-| Platform | Type | Cache Support |
-|----------|------|---------------|
-| **Rekonise.com** | Social unlock | ✓ |
-| **Mboost.me** | URL shortener | ✓ |
-| **Sub2unlock.com** | Social gate | ✓ |
-| **Sub4unlock.com** | Link redirect | ✓ |
-| **Pastefy.app** | Paste service | ✓ |
-| **Pastebin.com** | Paste service | ✓ |
-| **Pastes.io** | Paste service | ✓ |
-| **GitHub.com** | Raw file fetch | ✓ |
-| **Subnise.com** | URL shortener | ✓ |
+| Service | Status | 
+|---------|--------|
+| **Volcano** | ✅ Fully Supported |
+| **Work.ink** | ✅ Fully Supported |
+| **Linkvertise** | ✅ Fully Supported |
+| **Others** | ✅ Fully Supported |
+**All is Working for now**
 
-### 🌐 Browser-Based Bypasses (Advanced - 30-180s)
+## Installation
 
-| Platform | Type | Complexity |
-|----------|------|------------|
-| **Volcano.wtf** | Multi-checkpoint | High |
-| **Work.ink** | Social unlock | High |
-| **Sub2unlock.io** | Button unlock | High |
-| **Link4sub.com** | Social gate | High |
-| **Scriptpastebin.com** | Code extraction | High |
-| **Scriptpastebins.com** | Code extraction | High |
-| **Paste-drop.com** | Paste service | High |
-| **Sub4unlock.co** | Link redirect | High |
-| **Link2unlock.com** | Social unlock | High |
+### Method 1: One-Click Installer (Recommended)
 
----
+1. Download the latest **[Difz25x-Bypasser.exe](https://github.com/Difz25x/auto-bypass/releases/latest)**
+2. Run the installer
+3. App will automatically install and open
+4. That's it!
 
-## 📊 Performance Metrics
+### Method 2: Build from Source
 
-### Speed Comparison
+```bash
+# Clone the repository
+git clone https://github.com/Difz25x/auto-bypass.git
+cd auto-bypass
 
-| Platform Type | First Access | Cached Access | Success Rate |
-|---------------|--------------|---------------|--------------|
-| **API-Based** | 0.3s - 1.0s | 0.1s - 0.2s | 99% |
-| **Browser-Based (Simple)** | 30s - 60s | N/A | 95% |
-| **Browser-Based (Complex)** | 120s - 180s | N/A | 92% |
+# Install dependencies
+npm install
 
-### Platform-Specific Performance
+# Run the app
+npm start
 
-| Platform | Avg. Time | Cache Hit Rate | Reliability |
-|----------|-----------|----------------|-------------|
-| Rekonise | 3s | 95% | ⭐⭐⭐⭐⭐ |
-| Mboost | 3s | 90% | ⭐⭐⭐⭐⭐ |
-| Pastefy | 4 | 98% | ⭐⭐⭐⭐⭐ |
-| Pastebin | 4s | 97% | ⭐⭐⭐⭐⭐ |
-| GitHub | 4s | 95% | ⭐⭐⭐⭐⭐ |
-| Sub2unlock.io | 6s | 0% | ⭐⭐⭐⭐ |
-| Link4sub | 5s | 0% | ⭐⭐⭐⭐ |
-| Scriptpastebin | 2s | 0% | ⭐⭐⭐⭐⭐ |
-| Volcano.wtf | 160s | 0% | ⭐⭐⭐⭐ |
-
-**Notes:**
-- ⚡ API-based bypasses are near-instant with caching
-- 🌐 Browser-based bypasses require full automation (captcha, buttons, etc.)
-- 💾 Cache dramatically improves performance for repeated URLs
-- 🔄 Success rates may vary based on platform changes
-
----
-
-## 🚀 Quick Start
-
-### Usage
-
-1. Launch the application
-2. Paste your URL into the input field
-3. Click "Start Bypass"
-4. Monitor progress via checkpoint tracker
-5. Copy the result when complete
-
-### Supported URL Formats
-
-```
-✓ https://key.volcano.wtf/?hwid=YOUR_HWID
-✓ https://rekonise.com/abc123
-✓ https://pastefy.app/xyz789
-✓ https://mboost.me/short-code
-✓ https://sub2unlock.io/link-id
-✓ And more...
+# Build for production
+npm run build:win / npm run build:mac / npm run build:linux
 ```
 
+## Usage
+
+1. **Launch the app** from Desktop or Start Menu
+2. **Paste your URL** into the input field
+3. **Click "Start Bypass"**
+4. **Wait** for the bypass to complete
+5. **Copy your key** and enjoy!
+
+<div align="center">
+
+![Demo](https://github-production-user-asset-6210df.s3.amazonaws.com/177396246/515734310-e7feb43c-1752-45ef-aa06-012b0f071d7b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251118T130824Z&X-Amz-Expires=300&X-Amz-Signature=5c16654273eebde65b94455d46017d33fb4e16fa19ad10a3f16f013af3c20863&X-Amz-SignedHeaders=host)
+
+</div>
+
+## Auto-Update
+
+The app **automatically checks for updates** every time you open it!
+
+- **Mandatory updates** - Critical fixes are installed automatically
+- **One-time installation** - Install once, update forever
+- **Update notifications** - Get notified when new features are available
+- **Fast updates** - Download and install in seconds
+
+## Tech Stack
+
+- **Electron** - Cross-platform desktop framework
+- **Puppeteer** - Browser automation
+- **Node.js** - Runtime environment
+- **electron-updater** - Auto-update functionality
+- **GitHub Releases** - Update distribution
+
+## Requirements
+
+- **OS:** Windows 10/11 (64-bit)
+- **RAM:** 4GB minimum
+- **Storage:** 500MB free space
+- **Internet:** Required for operation
+
+## Troubleshooting
+
+### App won't open?
+- Right-click → Run as Administrator
+- Check if antivirus is blocking it
+- Reinstall the app
+
+### Bypass failed?
+- Check your internet connection
+- Make sure you're using the latest version
+- Try refreshing the page
+
+### Update not working?
+- Close and reopen the app
+- Check if GitHub is accessible
+- Manual download latest version
+
+## Contributing
+
+Contributions are welcome! Feel free to:
+
+- Report bugs
+- Suggest new features
+- Submit pull requests
+- Improve documentation
+
+## License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+## Credits
+
+<div align="center">
+
+**Developed by**
+
+[DyRian](https://github.com/Difz25x)
+
+**UI Design by**
+
+Difz25x
+
+</div>
+
+## Support
+
+Need help? Join our community!
+
+- [Discord Server](https://discord.gg/dbfQ2syH8f)
+- [Report Issues](https://github.com/Difz25x/auto-bypass/issues)
+
 ---
 
-## 🎯 Features
+<div align="center">
 
-### ✨ Core Features
-- **Smart URL Detection** - Automatically identifies platform type
-- **Dual Bypass Engine** - API-based (fast) or Browser-based (advanced)
-- **Real-time Progress** - 5-stage checkpoint visualization
-- **Intelligent Caching** - Stores results for instant re-access
-- **Error Recovery** - Automatic retry with smart fallback
-- **Modern UI** - Dark theme with animated backgrounds
+**Made with ❤️ by Difz25x Community**
 
-### 🔥 Technical Features
-- **Anti-Detection** - Browser fingerprint spoofing
-- **Captcha Handling** - Cloudflare Turnstile solver
-- **Ad-Block Bypass** - Custom extension injection
-- **Context System** - Unified handler communication
-- **Performance Timer** - Track bypass duration
+*We are TiRex, we are never Tired.*
 
----
-
-## ⚙️ Configuration
-
-### Checkpoint System
-
-Visual progress tracking through 5 stages:
-
-```
-[STARTING] → [PHASE 1] → [PHASE 2] → [PHASE 3] → [COMPLETED]
-    🟡         🟡          🟡         🟡           🟢
-```
-
-### Cache System
-
-- **Location:** `data/data.json`
-- **Format:** Key-value pairs (URL slug → Result)
-- **Benefits:** Instant retrieval, offline access
-- **Clear Cache:** Delete `data/data.json`
-
----
-
-## 🐛 Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| Browser won't launch | Install Chromium dependencies |
-| Timeout errors | Increase timeout values |
-| Cache not working | Check data directory permissions |
-| Volcano stuck | Clear cache and retry |
-
----
-
-## 📝 Credits
-
-**Created by:** Difz25x  
-**Based on work by:** ducknovis
-**Technologies:** Electron, Puppeteer, Node.js
-
----
-
-## ⚠️ Disclaimer
-
-This tool is for **educational purposes only**. Use responsibly and respect platform Terms of Service. The authors are not responsible for misuse.
-
----
-
-## 📄 License
-
-MIT License - See LICENSE file for details
-
----
-
-**Version:** 1.0.1
-**Last Updated:** 2025  
-**Status:** Active Development
+</div>
