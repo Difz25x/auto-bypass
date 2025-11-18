@@ -4,8 +4,10 @@
 
 ### *We are never give up.*
 
+[![Version](https://img.shields.io/badge/version-1.0.6--beta3-blue.svg)](https://github.com/Difz25x/auto-bypass/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://github.com/Difz25x/auto-bypass)
+[![Downloads](https://img.shields.io/github/downloads/Difz25x/auto-bypass/total.svg)](https://github.com/Difz25x/auto-bypass/releases)
 
 **Automatic bypass tool for many links**
 
@@ -151,6 +153,6 @@ Need help? Join our community!
 
 **Made with ❤️ by Difz25x Community**
 
-*We are TiRex, we are never Tired.*
+*We are never give up*
 
 </div>
