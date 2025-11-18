@@ -135,7 +135,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Developed by**
 
-[DyRian](https://github.com/Difz25x)
+[Difz25x](https://github.com/Difz25x)
 
 **UI Design by**
 
