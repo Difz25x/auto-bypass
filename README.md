@@ -4,7 +4,7 @@
 
 A powerful Electron-based application that automatically bypasses URL shorteners and access control systems across 15+ platforms with an elegant checkpoint tracking interface.
 
-[![Version](https://img.shields.io/badge/version-1.0.6-beta1-orange.svg)](https://github.com/Difz25x/auto-bypass)
+[![Version](https://img.shields.io/badge/version-1.0.6-orange.svg)](https://github.com/Difz25x/auto-bypass)
 [![Electron](https://img.shields.io/badge/electron-latest-green.svg)](https://www.electronjs.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
